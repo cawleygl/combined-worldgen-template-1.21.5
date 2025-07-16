@@ -1,0 +1,6 @@
+{
+  "parent": "combined-worldgen:block/horizontal_attached_cross_3",
+  "textures": {
+    "cross": "combined-worldgen:block/trunk_attached_brown_mushroom"
+  }
+}

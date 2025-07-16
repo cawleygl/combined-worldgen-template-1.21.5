@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": "combined-worldgen:carved_green_pumpkin",
+    "B": "minecraft:torch"
+  },
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "combined-worldgen:green_jack_o_lantern"
+  }
+}

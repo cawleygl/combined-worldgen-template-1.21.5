@@ -1,0 +1,12 @@
+// 1.21.5	-999999999-01-01T00:00:00	Combined Worldgen/Tags for minecraft:item
+1c33ac99ab28e39f9b9f7a86e096fc37ff3075bb data/combined-worldgen/tags/item/pumpkins.json
+ce993777fdae071b494a76d83ca175047ff4df78 data/combined-worldgen/tags/item/water_lilies.json
+051c27a294be69f55be6781bcfb457a9058ebfd0 data/minecraft/tags/item/bee_food.json
+6656de4a05e08982e18be1131109f09f0b7b6165 data/minecraft/tags/item/chicken_food.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/item/dirt.json
+7684e1fd34bc4240b0fff4baff349e0571645a57 data/minecraft/tags/item/enchantable/equippable.json
+7684e1fd34bc4240b0fff4baff349e0571645a57 data/minecraft/tags/item/enchantable/vanishing.json
+051c27a294be69f55be6781bcfb457a9058ebfd0 data/minecraft/tags/item/flowers.json
+7684e1fd34bc4240b0fff4baff349e0571645a57 data/minecraft/tags/item/gaze_disguise_equipment.json
+7684e1fd34bc4240b0fff4baff349e0571645a57 data/minecraft/tags/item/map_invisibility_equipment.json
+6656de4a05e08982e18be1131109f09f0b7b6165 data/minecraft/tags/item/parrot_food.json

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "combined-worldgen:block/blue_water_lily"
+      },
+      {
+        "model": "combined-worldgen:block/blue_water_lily",
+        "y": 90
+      },
+      {
+        "model": "combined-worldgen:block/blue_water_lily",
+        "y": 180
+      },
+      {
+        "model": "combined-worldgen:block/blue_water_lily",
+        "y": 270
+      }
+    ]
+  }
+}

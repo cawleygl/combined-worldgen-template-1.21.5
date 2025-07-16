@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "combined-worldgen:block/loose_dirt"
+    }
+  }
+}

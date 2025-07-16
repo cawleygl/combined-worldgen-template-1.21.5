@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "minecraft:oak_checked",
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": "maple-wood:pointed_green_maple_bees_0002_leaf_litter"
+      },
+      {
+        "chance": 0.00333334,
+        "feature": "maple-wood:round_green_maple_bees_0002_leaf_litter"
+      },
+      {
+        "chance": 0.1,
+        "feature": "minecraft:fancy_oak_checked"
+      }
+    ]
+  }
+}

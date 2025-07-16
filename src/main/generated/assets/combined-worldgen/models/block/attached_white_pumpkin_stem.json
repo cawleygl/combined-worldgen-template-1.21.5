@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/stem_fruit",
+  "textures": {
+    "stem": "combined-worldgen:block/white_pumpkin_stem",
+    "upperstem": "combined-worldgen:block/attached_white_pumpkin_stem"
+  }
+}

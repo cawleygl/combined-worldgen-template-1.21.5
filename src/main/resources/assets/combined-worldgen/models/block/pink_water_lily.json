@@ -1,0 +1,6 @@
+{
+  "parent": "combined-worldgen:block/template_water_lily",
+  "textures": {
+    "flower": "combined-worldgen:block/pink_water_lily_petal"
+  }
+}

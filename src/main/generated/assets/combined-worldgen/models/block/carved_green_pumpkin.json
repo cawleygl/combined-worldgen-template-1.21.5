@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "combined-worldgen:block/carved_green_pumpkin",
+    "side": "combined-worldgen:block/green_pumpkin_side",
+    "top": "combined-worldgen:block/green_pumpkin_top"
+  }
+}

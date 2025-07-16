@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": "minecraft:dirt",
+    "L": "minecraft:leaf_litter"
+  },
+  "pattern": [
+    "DL",
+    "LD"
+  ],
+  "result": {
+    "count": 4,
+    "id": "combined-worldgen:loose_dirt"
+  }
+}

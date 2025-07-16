@@ -1,0 +1,117 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"overlay": "combined-worldgen:block/water_lily_petal_overlay",
+		"particle": "minecraft:block/lily_pad",
+		"texture": "minecraft:block/lily_pad",
+		"cross": "combined-worldgen:block/water_lily_stamen"
+	},
+	"elements": [
+		{
+			"from": [0, 0.25, 0],
+			"to": [16, 0.25, 16],
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0.8, 0, 8],
+			"to": [15.2, 16, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0, 0.8],
+			"to": [8, 16, 15.2],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [8, 0.2, 0],
+			"to": [24, 0.2, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 0.5, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#flower"}
+			}
+		},
+		{
+			"from": [-8, 0.2, 0],
+			"to": [8, 0.2, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 0.5, 0]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#flower"}
+			}
+		},
+		{
+			"from": [0, 0.2, 8],
+			"to": [16, 0.2, 24],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0.5, 8]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 0], "texture": "#flower"},
+				"down": {"uv": [16, 0, 0, 16], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [0, 0.2, -8],
+			"to": [16, 0.2, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, 0.5, 8]},
+			"faces": {
+				"up": {"uv": [0, 0, 16, 16], "texture": "#flower"},
+				"down": {"uv": [0, 16, 16, 0], "texture": "#flower"}
+			}
+		},
+		{
+			"from": [8, 0.2, 0],
+			"to": [24, 0.2, 16],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "z", "origin": [8, 0.5, 0]},
+			"faces": {
+				"down": {"uv": [0, 16, 16, 0], "rotation": 270, "texture": "#overlay", "tintindex": 0}
+			}
+		},
+		{
+			"from": [-8, 0.2, 0],
+			"to": [8, 0.2, 16],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "z", "origin": [8, 0.5, 0]},
+			"faces": {
+				"down": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#overlay", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0.2, 8],
+			"to": [16, 0.2, 24],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "x", "origin": [0, 0.5, 8]},
+			"faces": {
+				"down": {"uv": [16, 0, 0, 16], "texture": "#overlay", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, 0.2, -8],
+			"to": [16, 0.2, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "x", "origin": [0, 0.5, 8]},
+			"faces": {
+				"down": {"uv": [0, 16, 16, 0], "texture": "#overlay", "tintindex": 0}
+			}
+		}
+	]
+}

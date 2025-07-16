@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "mushrooms=1,facing=west": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_1",
+      "y": 270
+    },
+    "mushrooms=1,facing=south": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_1",
+      "y": 180
+    },
+    "mushrooms=1,facing=north": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_1"
+    },
+    "mushrooms=1,facing=east": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_1",
+      "y": 90
+    },
+    "mushrooms=2,facing=west": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_2",
+      "y": 270
+    },
+    "mushrooms=2,facing=south": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_2",
+      "y": 180
+    },
+    "mushrooms=2,facing=north": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_2"
+    },
+    "mushrooms=2,facing=east": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_2",
+      "y": 90
+    },
+    "mushrooms=3,facing=west": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_3",
+      "y": 270
+    },
+    "mushrooms=3,facing=south": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_3",
+      "y": 180
+    },
+    "mushrooms=3,facing=north": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_3"
+    },
+    "mushrooms=3,facing=east": {
+      "model": "combined-worldgen:block/trunk_attached_brown_mushroom_3",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.21.5",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "combined-worldgen:block/violet",
+		"flowerbed": "combined-worldgen:block/violet",
+		"stem": "minecraft:block/wildflowers_stem"
+	},
+	"elements": [
+		{
+			"from": [0, 2.99, 0],
+			"to": [8, 2.99, 8],
+			"faces": {
+				"up": {"uv": [0, 0, 8, 8], "texture": "#flowerbed"},
+				"down": {"uv": [0, 8, 8, 0], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [3.75, 0, -0.1],
+			"to": [3.75, 2.99, 0.9],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-0.5, 0, 2.5]},
+			"faces": {
+				"east": {"uv": [0, 4, 1, 7], "texture": "#stem", "tintindex": 1},
+				"west": {"uv": [0, 4, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [3.25, 0, 0.4],
+			"to": [4.25, 2.99, 0.4],
+			"rotation": {"angle": -45, "axis": "y", "origin": [-0.5, 0, 2.5]},
+			"faces": {
+				"north": {"uv": [0, 4, 1, 7], "texture": "#stem", "tintindex": 1},
+				"south": {"uv": [0, 4, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		}
+	]
+}

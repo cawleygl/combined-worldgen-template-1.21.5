@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "combined-worldgen",
+	"version": "1.0.0",
+	"name": "Combined Worldgen",
+	"description": "Worldgen mod that combines features from other mods",
+	"authors": [
+		"BlueSteel42"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/combined-worldgen/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"bluesteel42.combinedworldgen.CombinedWorldgen"
+		],
+		"client": [
+			"bluesteel42.combinedworldgen.CombinedWorldgenClient"
+		],
+		"fabric-datagen": [
+			"bluesteel42.combinedworldgen.CombinedWorldgenDataGenerator"
+		]
+	},
+	"mixins": [
+		"combined-worldgen.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

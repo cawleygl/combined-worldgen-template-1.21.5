@@ -1,0 +1,19 @@
+// 1.21.5	-999999999-01-01T00:00:00	Combined Worldgen/Tags for minecraft:block
+ce993777fdae071b494a76d83ca175047ff4df78 data/combined-worldgen/tags/block/water_lilies.json
+051c27a294be69f55be6781bcfb457a9058ebfd0 data/minecraft/tags/block/bee_attractive.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/big_dripleaf_placeable.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/convertable_to_mud.json
+e861d39758a92ce92b299f0acadac6e5af512c71 data/minecraft/tags/block/crops.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/dirt.json
+d7699c7527dd824e45a65c2ca411d5ed23208d32 data/minecraft/tags/block/enderman_holdable.json
+051c27a294be69f55be6781bcfb457a9058ebfd0 data/minecraft/tags/block/flowers.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/foxes_spawnable_on.json
+7a529e0d5c20ddac22049ba77e7582040e588761 data/minecraft/tags/block/frog_prefer_jump_to.json
+051c27a294be69f55be6781bcfb457a9058ebfd0 data/minecraft/tags/block/inside_step_sound_blocks.json
+87396f0312c36655dd30506674f81c933f2b5092 data/minecraft/tags/block/maintains_farmland.json
+a7ae05614c010029f7a4da32040ddd4536ffae23 data/minecraft/tags/block/mineable/axe.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/mineable/shovel.json
+cba2bed7d029444354afb515a8b35b09d0364d61 data/minecraft/tags/block/replaceable_by_mushrooms.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/sniffer_diggable_block.json
+a7ae05614c010029f7a4da32040ddd4536ffae23 data/minecraft/tags/block/sword_efficient.json
+c09f3d2e740a38732c388186f46fa03e241a76db data/minecraft/tags/block/wolves_spawnable_on.json

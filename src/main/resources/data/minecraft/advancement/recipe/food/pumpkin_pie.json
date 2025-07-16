@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_carved_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:carved_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_carved_white_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combined-worldgen:carved_white_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "combined-worldgen:pumpkin_pie"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_white_pumpkin": {
+      "conditions": {
+        "items": [
+          {
+            "items": "combined-worldgen:white_pumpkin"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pumpkin",
+      "has_white_pumpkin",
+      "has_carved_pumpkin",
+      "has_carved_white_pumpkin"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "combined-worldgen:pumpkin_pie"
+    ]
+  }
+}

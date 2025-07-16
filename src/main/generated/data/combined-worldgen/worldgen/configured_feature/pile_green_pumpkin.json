@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:block_pile",
+  "config": {
+    "state_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "combined-worldgen:green_pumpkin"
+          },
+          "weight": 13
+        },
+        {
+          "data": {
+            "Name": "minecraft:pumpkin"
+          },
+          "weight": 6
+        },
+        {
+          "data": {
+            "Name": "combined-worldgen:green_jack_o_lantern",
+            "Properties": {
+              "facing": "north"
+            }
+          },
+          "weight": 1
+        }
+      ]
+    }
+  }
+}

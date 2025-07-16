@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": "combined-worldgen:forest_birch_bees_0002",
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "combined-worldgen:forest_super_birch_bees_0002"
+      },
+      {
+        "chance": 0.2,
+        "feature": "minecraft:pine_checked"
+      },
+      {
+        "chance": 0.00625,
+        "feature": "minecraft:fallen_super_birch_tree"
+      },
+      {
+        "chance": 0.0125,
+        "feature": "minecraft:fallen_birch_tree"
+      },
+      {
+        "chance": 0.0025,
+        "feature": "pine-wood:fallen_pine_tree"
+      }
+    ]
+  }
+}

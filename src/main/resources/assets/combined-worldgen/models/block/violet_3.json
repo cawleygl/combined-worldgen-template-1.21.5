@@ -1,0 +1,56 @@
+{
+	"format_version": "1.21.5",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "combined-worldgen:block/violet",
+		"flowerbed": "combined-worldgen:block/violet",
+		"stem": "minecraft:block/wildflowers_stem"
+	},
+	"elements": [
+		{
+			"from": [8, 2, 8],
+			"to": [16, 2, 16],
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "texture": "#flowerbed"},
+				"down": {"uv": [8, 16, 16, 8], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [18.65, 0, 1],
+			"to": [19.65, 2, 1],
+			"rotation": {"angle": -45, "axis": "y", "origin": [1.5, 0, -0.4]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [19.15, 0, 0.5],
+			"to": [19.15, 2, 1.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [1.5, 0, -0.4]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [13.4, 0, 0.5],
+			"to": [13.4, 2, 1.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 1]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [12.9, 0, 1],
+			"to": [13.9, 2, 1],
+			"rotation": {"angle": -45, "axis": "y", "origin": [0, 0, 1]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		}
+	]
+}
