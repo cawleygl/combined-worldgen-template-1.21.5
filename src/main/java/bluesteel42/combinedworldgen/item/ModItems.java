@@ -26,7 +26,7 @@ public class ModItems {
     public static final Item GREEN_PUMPKIN_SEEDS = Items.register(ModItemKeys.GREEN_PUMPKIN_SEEDS_KEY, createBlockItemWithUniqueName(ModBlocks.GREEN_PUMPKIN_STEM));
 
     public static final Item CARVED_WHITE_PUMPKIN = Items.register(
-            Blocks.CARVED_PUMPKIN,
+            ModBlocks.CARVED_WHITE_PUMPKIN,
             (UnaryOperator<Item.Settings>)(settings -> settings.component(
                     DataComponentTypes.EQUIPPABLE,
                     EquippableComponent.builder(EquipmentSlot.HEAD).swappable(false).cameraOverlay(Identifier.of(CombinedWorldgen.MOD_ID, "misc/white_pumpkinblur")).build()
@@ -34,7 +34,7 @@ public class ModItems {
     );
 
     public static final Item CARVED_GREEN_PUMPKIN = Items.register(
-            Blocks.CARVED_PUMPKIN,
+            ModBlocks.CARVED_GREEN_PUMPKIN,
             (UnaryOperator<Item.Settings>)(settings -> settings.component(
                     DataComponentTypes.EQUIPPABLE,
                     EquippableComponent.builder(EquipmentSlot.HEAD).swappable(false).cameraOverlay(Identifier.of(CombinedWorldgen.MOD_ID,"misc/green_pumpkinblur")).build()
