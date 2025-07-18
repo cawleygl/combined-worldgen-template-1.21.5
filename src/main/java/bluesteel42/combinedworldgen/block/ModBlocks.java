@@ -9,8 +9,12 @@ import net.minecraft.block.*;
 import net.minecraft.block.enums.NoteBlockInstrument;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.client.render.RenderLayer;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.Items;
+import net.minecraft.registry.Registries;
+import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
@@ -44,7 +48,7 @@ public class ModBlocks {
     );
 
     /* SWAMP BIOME */
-    public static final Block WHITE_WATER_LILY = register("white_water_lily", LilyPadBlock::new,
+    public static final Block WHITE_WATER_LILY = register("white_water_lily", WaterLilyBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.WHITE)
                     .breakInstantly()
@@ -54,7 +58,7 @@ public class ModBlocks {
             false,
             true
     );
-    public static final Block PINK_WATER_LILY = register("pink_water_lily", LilyPadBlock::new,
+    public static final Block PINK_WATER_LILY = register("pink_water_lily", WaterLilyBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.PINK)
                     .breakInstantly()
@@ -63,7 +67,7 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY),
             false,
             true
-    );    public static final Block BLUE_WATER_LILY = register("blue_water_lily", LilyPadBlock::new,
+    );    public static final Block BLUE_WATER_LILY = register("blue_water_lily", WaterLilyBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.BLUE)
                     .breakInstantly()
@@ -72,7 +76,7 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.DESTROY),
             false,
             true
-    );    public static final Block PURPLE_WATER_LILY = register("purple_water_lily", LilyPadBlock::new,
+    );    public static final Block PURPLE_WATER_LILY = register("purple_water_lily", WaterLilyBlock::new,
             AbstractBlock.Settings.create()
                     .mapColor(MapColor.PURPLE)
                     .breakInstantly()

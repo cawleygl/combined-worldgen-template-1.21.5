@@ -81,6 +81,7 @@ public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> FOREST_BIRCH_BEES_0002_LEAF_LITTER_KEY = registerKey("forest_birch_bees_0002_leaf_litter");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FOREST_SUPER_BIRCH_BEES_0002_KEY = registerKey("forest_super_birch_bees_0002");
     public static final RegistryKey<ConfiguredFeature<?, ?>> FOREST_BIRCH_KEY = registerKey("forest_birch");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DRY_BIRCH_KEY = registerKey("dry_birch");
     public static final RegistryKey<ConfiguredFeature<?, ?>> OLD_GROWTH_SUPER_BIRCH_BEES_0002_KEY = registerKey("old_growth_super_birch_bees_0002");
     public static final RegistryKey<ConfiguredFeature<?, ?>> MOSSY_FALLEN_SUPER_BIRCH_TREE_KEY = registerKey("mossy_fallen_super_birch_tree");
 
@@ -139,14 +140,7 @@ public class ModConfiguredFeatures {
 
         register(context, SWAMP_WHITE_WATER_LILIES_KEY, Feature.RANDOM_PATCH,
                 new RandomPatchFeatureConfig(
-                        15, 5, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                        new SimpleBlockFeatureConfig(
-                                new WeightedBlockStateProvider(
-                                        Pool.<BlockState>builder()
-                                                .add(ModBlocks.WHITE_WATER_LILY.getDefaultState(), 6)
-                                                .add(ModBlocks.PINK_WATER_LILY.getDefaultState(), 1)
-                                )
-                        ))
+                        15, 5, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.WHITE_WATER_LILY)))
                 )
         );
         register(context, SWAMP_PINK_WATER_LILIES_KEY, Feature.RANDOM_PATCH,
@@ -155,22 +149,15 @@ public class ModConfiguredFeatures {
                         new SimpleBlockFeatureConfig(
                                 new WeightedBlockStateProvider(
                                         Pool.<BlockState>builder()
-                                                .add(ModBlocks.PINK_WATER_LILY.getDefaultState(), 6)
-                                                .add(ModBlocks.WHITE_WATER_LILY.getDefaultState(), 1)
+                                                .add(ModBlocks.PINK_WATER_LILY.getDefaultState(), 5)
+                                                .add(ModBlocks.WHITE_WATER_LILY.getDefaultState(), 2)
                                 )
                         ))
                 )
         );
         register(context, SWAMP_BLUE_WATER_LILIES_KEY, Feature.RANDOM_PATCH,
                 new RandomPatchFeatureConfig(
-                        15, 5, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                        new SimpleBlockFeatureConfig(
-                                new WeightedBlockStateProvider(
-                                        Pool.<BlockState>builder()
-                                                .add(ModBlocks.BLUE_WATER_LILY.getDefaultState(), 6)
-                                                .add(ModBlocks.PURPLE_WATER_LILY.getDefaultState(), 1)
-                                )
-                        ))
+                        15, 5, 3, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.BLUE_WATER_LILY)))
                 )
         );
         register(context, SWAMP_PURPLE_WATER_LILIES_KEY, Feature.RANDOM_PATCH,
@@ -179,8 +166,8 @@ public class ModConfiguredFeatures {
                         new SimpleBlockFeatureConfig(
                                 new WeightedBlockStateProvider(
                                         Pool.<BlockState>builder()
-                                                .add(ModBlocks.PURPLE_WATER_LILY.getDefaultState(), 6)
-                                                .add(ModBlocks.BLUE_WATER_LILY.getDefaultState(), 1)
+                                                .add(ModBlocks.PURPLE_WATER_LILY.getDefaultState(), 5)
+                                                .add(ModBlocks.BLUE_WATER_LILY.getDefaultState(), 2)
                                 )
                         ))
                 )
@@ -363,6 +350,15 @@ public class ModConfiguredFeatures {
                         new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
                         new TwoLayersFeatureSize(1, 0, 1)
                 ).decorators(ImmutableList.of(new HangingMushroomTreeDecorator(0.05F))).build());
+
+        register(context, DRY_BIRCH_KEY, Feature.TREE,
+                new TreeFeatureConfig.Builder(
+                        BlockStateProvider.of(Blocks.BIRCH_LOG),
+                        new NotchedTrunkPlacer(5, 2, 0),
+                        BlockStateProvider.of(Blocks.BIRCH_LEAVES),
+                        new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
+                        new TwoLayersFeatureSize(1, 0, 1)
+                ).build());
 
         register(context, OLD_GROWTH_SUPER_BIRCH_BEES_0002_KEY, Feature.TREE,
                 new TreeFeatureConfig.Builder(

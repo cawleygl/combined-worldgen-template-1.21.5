@@ -126,7 +126,7 @@ public class ModPlacedFeatures {
         );
 
         register(context, SWAMP_WHITE_WATER_LILIES_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SWAMP_WHITE_WATER_LILIES_KEY),
-                List.of(RarityFilterPlacementModifier.of(125),
+                List.of(RarityFilterPlacementModifier.of(30),
                         SquarePlacementModifier.of(),
                         PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
                         BiomePlacementModifier.of()
@@ -140,21 +140,21 @@ public class ModPlacedFeatures {
                 )
         );
         register(context, SWAMP_BLUE_WATER_LILIES_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SWAMP_BLUE_WATER_LILIES_KEY),
-                List.of(RarityFilterPlacementModifier.of(125),
+                List.of(RarityFilterPlacementModifier.of(150),
                         SquarePlacementModifier.of(),
                         PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
                         BiomePlacementModifier.of()
                 )
         );
         register(context, SWAMP_PURPLE_WATER_LILIES_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SWAMP_PURPLE_WATER_LILIES_KEY),
-                List.of(RarityFilterPlacementModifier.of(125),
+                List.of(RarityFilterPlacementModifier.of(200),
                         SquarePlacementModifier.of(),
                         PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,
                         BiomePlacementModifier.of()
                 )
         );
         register(context, SWAMP_FIREFLIES_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.SWAMP_FIREFLIES_KEY),
-                List.of(CountPlacementModifier.of(12),
+                List.of(CountPlacementModifier.of(14),
                         NoiseThresholdCountPlacementModifier.of(-0.8, 5, 10),
                         SquarePlacementModifier.of(),
                         PlacedFeatures.WORLD_SURFACE_WG_HEIGHTMAP,

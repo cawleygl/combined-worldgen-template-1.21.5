@@ -12,13 +12,13 @@
                 "data": {
                   "Name": "combined-worldgen:pink_water_lily"
                 },
-                "weight": 6
+                "weight": 5
               },
               {
                 "data": {
                   "Name": "combined-worldgen:white_water_lily"
                 },
-                "weight": 1
+                "weight": 2
               }
             ]
           }
